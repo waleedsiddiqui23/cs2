@@ -1,0 +1,83 @@
+h1,h2{
+    text-align: center;
+    margin-top: 3%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+
+}
+h3{
+
+    margin-left: 13px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+}
+label{
+
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+    text-align: center;
+}
+.sort{
+
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.sortDesc{
+
+    margin-left: 15px;
+}
+img{
+   height: 10%;
+   width: 15%;
+}
+.card{
+
+    margin-top: 8%;
+    max-width: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+}
+.form-control{
+
+    max-width: 30%;
+    border: 0;
+    text-align: center;
+}
+
+th{
+
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+    color: white;
+}
+tr{
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+}
+button{
+
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+}
+
+
+.btn-danger{
+
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.form-group{
+
+    margin-left: 40%;
+
+}
+
+.btn-success{
+
+    margin-left: 45%;
+}
+p{
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-seri;
+}
+.alert{
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
