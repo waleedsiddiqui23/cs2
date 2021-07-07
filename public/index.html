@@ -149,7 +149,7 @@
             },
 
             created: function () {
-                fetch('https://cstcw2.herokuapp.com/collection/lesson').then(
+                fetch(' https://cw2cst3100.herokuapp.com/collection/lesson').then(
                     function (response) {
                         response.json().then(
                             function (json) {
@@ -189,7 +189,7 @@
                     alert('Your order is processd')
 
 
-                    fetch('https://cstcw2.herokuapp.com/collection/orders', {
+                    fetch(' https://cw2cst3100.herokuapp.com/collection/orders', {
                         method: 'POST', // set the HTTP method as 'POST'
                         headers: {
                             'Content-Type': 'application/json', // set the data type as JSON
@@ -200,7 +200,7 @@
                         var newProduct = { NumberOfSpace: webstore.cart[i].NumberOfSpace - webstore.cart[i].addedLessons };
                         var lessonID = { lesson: webstore.cart[i]._id };
                         lesson = webstore.cart[i]._id;
-                        fetch('https://cstcw2.herokuapp.com/collection/lesson/' + lesson + '', {
+                        fetch(' https://cw2cst3100.herokuapp.com/collection/lesson/' + lesson + '', {
                             method: 'PUT',
                             headers: {
                                 'Content-Type': 'application/json',
